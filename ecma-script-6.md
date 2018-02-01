@@ -415,12 +415,6 @@ console.log([ ...'hello' ]); // [ 'h', 'e', 'l', 'l', 'o' ]
 Finally, when a function has N parameters if you apply the spread operator to
 the last one, it will store all the arguments after the N-th one (included):
 
-## Spread operator
-
-Infine, applicato all'ultimo parametro di una funzione ad N parametri, permette
-di farne un array al quale vengono assegnati tutti gli argomenti dall'N-esimo
-(incluso) in poi:
-
 ```
 function example(first, second, ...etc) {
   console.log(etc);
