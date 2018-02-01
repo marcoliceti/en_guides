@@ -314,7 +314,7 @@ console.log(marco instanceof Person); // true
 console.log(marco instanceof Athlete); // true
 ```
 
-## Promesse
+## Promises
 
 Promises are essentially a convenient way of dealing with asynchronous tasks.
 I won't discuss promises here, since it's a topic that should be treated
