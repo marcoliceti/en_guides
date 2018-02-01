@@ -32,7 +32,7 @@ you can use [Babel](https://babeljs.io/).
 * [Arrow functions](#arrow-functions)
 * [Spread operator](#spread-operator)
 * [Destructuring](#destructuring)
-* [Set and maps](#set-and-maps)
+* [Sets and maps](#sets-and-maps)
 * [Modules](#modules)
 
 ## Block scope
@@ -475,7 +475,7 @@ const { address: { city: cityOfMarco } } = {
     city: 'Rome'
   }
 };
-console.log(cityOfMarco); // 'Roma'
+console.log(cityOfMarco); // 'Rome'
 ```
 
 ## Sets and maps
