@@ -484,12 +484,12 @@ New classes for sets and maps:
 
 ```
 const stuff = new Set();
-paperi.add('foo');
-paperi.add('foo');
-paperi.add('bar');
-paperi.add('bar');
-paperi.add('baz');
-paperi.add('baz');
+stuff.add('foo');
+stuff.add('foo');
+stuff.add('bar');
+stuff.add('bar');
+stuff.add('baz');
+stuff.add('baz');
 console.log(stuff.size); // 3
 for (let thing of stuff) console.log(thing);
 
