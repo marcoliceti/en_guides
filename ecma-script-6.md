@@ -88,7 +88,7 @@ You can even interpolate values inside the string:
 const name = 'Marco';
 const age = 30;
 const message = `Hi I'm ${name} and I'm ${age}`;
-console.log(message); 'Hi I'm ${name} and I'm ${age}'
+console.log(message); 'Hi I'm Marco and I'm 30'
 ```
 
 ## Arrow functions
