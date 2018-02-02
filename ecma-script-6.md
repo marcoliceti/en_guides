@@ -2,13 +2,11 @@
 
 ## Abstract
 
-The purpose of this guide is to present ECMAScript 6 main features in a clear
-and concise way, with a focus on everyday features.
+The purpose of this guide is to present a curated selection of ECMAScript 6
+features in a clear yet concise way.
 
-This guide is for developers who already have some JavaScript knowledge.
-
-Most ECMAScript 6 features can already be tried out on almost any popular
-browser (or [Node](https://nodejs.org/)), as long as you use a recent version.
+Most of these features can already be tried out on almost any popular browser
+(or [Node](https://nodejs.org/)), as long as you use a recent version.
 Alternatively, you can use [Babel](https://babeljs.io/).
 
 ## Table of contents
