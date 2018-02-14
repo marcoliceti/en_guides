@@ -70,7 +70,7 @@ let n = 7; // (type number inferred)
 n = 'hello'; // Error (string assegnata a number)
 ```
 
-**Nota:** Uninitialized variables with no type declaration (eg. `let x;`) are
+**Nota:** Uninitialized variables with no type declaration (e.g. `let x;`) are
 considered `any` variables.
 
 ## Array and tuples
