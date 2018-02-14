@@ -1,4 +1,4 @@
-# TypeScript
+Error# TypeScript
 
 ## Abstract
 
@@ -67,7 +67,7 @@ You can omit types and rely on type inference:
 
 ```
 let n = 7; // (type number inferred)
-n = 'hello'; // Errore (string assegnata a number)
+n = 'hello'; // Error (string assegnata a number)
 ```
 
 **Nota:** Uninitialized variables with no type declaration (eg. `let x;`) are
@@ -200,7 +200,7 @@ interface Athlete {
 }
 
 const marco: Person = { name: 'Marco' };
-marco.sport = 'soccer'; // Errore
+marco.sport = 'soccer'; // Error
 (marco as Athlete).sport = 'soccer'; // OK
 ```
 
@@ -314,7 +314,7 @@ class Person {
 }
 
 const marco = new Person('Marco');
-console.log(marco.name); // Errore (private variable)
+console.log(marco.name); // Error (private variable)
 ```
 
 You can also declare `protected` instance variables, which makes them directlty
@@ -339,7 +339,7 @@ example.aPublicMethod(); // 'OK'
 ```
 
 You can also declare `readonly` instance variables, which can be assigned only
-into constructors:
+inside constructors:
 
 ```
 class Person {
